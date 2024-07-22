@@ -30,7 +30,8 @@ double Statistics::ComputeMin(const std::vector<double>& dbVec_SensorData)
 	return *min_element(dbVec_SensorData.begin(), dbVec_SensorData.end());;
 }
 
-void main()
+int main()
 {
 	Statistics::ComputeStatistics({ 1.5, 8.9, 3.2, 4.5 });
+	return 0;
 }
