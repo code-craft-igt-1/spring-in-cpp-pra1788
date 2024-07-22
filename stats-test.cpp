@@ -3,6 +3,8 @@
 #include "gtest/gtest.h"
 #include <cmath>
 
+using namespace Statistics;
+
 TEST(Statistics, ReportsAverageMinMax) {
     auto computedStats = Statistics::ComputeStatistics({1.5, 8.9, 3.2, 4.5});
     float epsilon = 0.001;

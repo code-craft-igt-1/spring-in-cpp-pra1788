@@ -1,1 +1,10 @@
 build/
+/Debug/
+Debug
+*.db
+*.opendb
+*.vc
+*.cov
+*.exe
+*.ilk
+*.pdb
